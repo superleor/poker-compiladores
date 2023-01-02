@@ -463,7 +463,6 @@ function peg$parse(input, options) {
   }
 
 
-    ignore: "\s*"
     function makeInteger(o) {
       return parseInt(o.join(""), 10);
     }
