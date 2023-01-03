@@ -7,6 +7,16 @@ const grammar = fs.readFileSync("grammar2.pegjs", "utf8"); // mudar aqui para co
 
 const parser = PEG.generate(grammar);
 
+/* const hand = [
+    { value: "2", suit: "c" },
+    { value: "5", suit: "c" },
+    { value: "6", suit: "c" },
+    { value: "10", suit: "c" },
+    { value: "K", suit: "c" }
+];
+
+console.log(parser.parse(hand)) */
+
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
